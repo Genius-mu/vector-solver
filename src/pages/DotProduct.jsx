@@ -15,10 +15,7 @@ const DotProduct = () => {
     const J = Number(Y1) * Number(Y2);
     const K = Number(Z1) * Number(Z2);
 
-    let result = `${Math.abs(I)} ${Math.abs(J)} ${Math.abs(K)}`;
-
-    if (!result) result = "0";
-
+    let result = I + J + K;
     setAns(result);
   };
 
